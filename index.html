@@ -45,19 +45,31 @@
         }
         
         h1,
-        h2,
         p {
             color: #ffffff;
             font-family: 'Archivo Black', sans-serif;
+        }
+        
+        h1 {
+            font-size: 6mm;
+        }
+        
+        h3 {
+            font-size: 5mm;
         }
         
         .logo {
             font-size: 6em;
         }
         
-        .but1 {
+        .but {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        button {
             margin: 50px;
-            width: 300px;
+            width: 200px;
             height: 60px;
             border-radius: 30px;
             border: 0;
@@ -76,11 +88,18 @@
         <div class="con">
             <H1 class="logo">BabyCard</H1>
             <h3>
-                <p>一款App帮少儿学习多语言! 一款App帮孩子认识大自然!<br />轻轻划一下，丝滑动效带出新事物! 点开详情页，详细介绍物品属性! <br /><br />三种语言，给孩子学习多种语打开小窗口!<br />精美图案，给孩子学习新事物带来大乐趣!</p>
+                <p><br />一款App帮少儿学习多语言! 一款App帮孩子认识大自然!<br />轻轻划一下，丝滑动效带出新事物! 点开详情页，详细介绍物品属性! <br /><br />三种语言，给孩子学习多种语打开小窗口!<br />精美图案，给孩子学习新事物带来大乐趣!</p>
             </h3>
-            <button class="but1 but2"><h1><a style="text-decoration: none;color:  #1CD8D2" href="mailto:kelachak@163.com">📮kelachak@163.com</a></h1></button>
+            <div class="but">
+                <button><h1><a style="text-decoration: none;color:  #1CD8D2" href="https://www.apple.com.cn/app-store/" target="_blank">⏬下载应用</a></h1></button>
+                <button><h1><a style="text-decoration: none;color:  #1CD8D2" href="mailto:kelachak@163.com">📮联系我们</a></h1></button>
+
+            </div>
         </div>
     </div>
+    <footer style="position: absolute; bottom: 10px; width: 100%;display: flex; justify-content: center;">
+        <div style=" color:  #ffffff">©️<a style="text-decoration: none;color:  #ffffff" href="mailto:kelachak@163.com">@kelachak</a> | 深圳2022</div>
+    </footer>
 </body>
 
 </html>
